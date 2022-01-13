@@ -1,11 +1,11 @@
 ## The Corpora
-The OntoNotes[1] and the TwiConv[2] corpora are used in the experiments done for the paper *Adapting Coreference Resolution to Twitter
+The OntoNotes[1] and the TwiConv[2] corpora are used in the experiments conducted for the paper *Adapting Coreference Resolution to Twitter
 Conversations*.
+
 The files which are used from the OntoNotes corpus are given in ontonotes_files_used.txt.
 
-The TwiConv corpus is shared in the repository https://github.com/berfingit/TwiConv. Please refer to the corpus' repository for the instructions on how to reproduce the corpus. The conll format we applied in this paper is slightly different than the corpus' distributed version. Therefore,
-before the construction of the corpus, the conll_skeleton/ folder and the make_conll.py script in the TwiConv distribution should 
-replaced by the versions we share in this repository.
+The TwiConv corpus is shared via the repository https://github.com/berfingit/TwiConv. Please refer to the corpus' repository for the instructions on how to reproduce the corpus. The conll format we applied in this paper is slightly different than the corpus' distributed version. Therefore,
+before the construction of the corpus, the conll_skeleton/ folder and the make_conll.py script in the TwiConv distribution should replaced by the versions we share in this repository.
 
 The annotations in Twiconv corpus conform with the Ontonotes annotation style except for the annotation of verb mention,
 which are annotated in OntoNotes but not in TwiConv corpus.
@@ -46,4 +46,5 @@ COLUMN	CONTENT
 
 ## References
 [1] Sameer Pradhan, Lance Ramshaw, Ralph Weischedel, Jessica Macbride, and Linnea Micciulla. 2007. Un-restricted Coreference: Identifying Entities and Events in OntoNotes. International Conference on Semantic Computing, 0:446–453.
+
 [2] Berfin Aktaş and Annalena Kohnert. TwiConv: A Coreference-annotated Corpus of Twitter Conversations. In Proceedings of the Third Workshop on Computational Models of Reference, Anaphora and Coreference (CRAC@COLING), 47–54. Barcelona, Spain, December 2020. Association for Computational Linguistics.
